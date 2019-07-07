@@ -1,0 +1,296 @@
+body{
+	font-family: Electrolize;
+	background-color: #1A2032;
+	margin: 0;
+	padding: 0;
+}
+input, button{
+	font-family: Electrolize;
+}
+h2{
+	font-size: 32px;
+}
+#banner-header, #login-section, #newsletter, .ser{
+	color: #ffffff;
+}
+/* company logo / website name */
+#branding{
+	float: left;
+}
+#branding img{
+	margin: 0px 20px 0px 20px;
+	width: 170px;
+	height: 100px;
+}
+/* end company logo / website name */
+
+/* container */
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+/* end container */
+
+/* header */
+header{
+	height: 125px;
+	background-color: #131720;
+	border-bottom: 5px solid #2C3347;
+}
+/* end header */
+
+/* main navigation */
+nav ul{
+	margin-top: 40px;
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul li{
+	list-style-type: none;
+	text-transform: uppercase;
+	display: inline;
+	padding: 20px;
+}
+nav ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+/* end main navigation */
+
+/* search bar */
+.search-bar{
+	margin-top: 25px;
+	float: right;
+	margin-right: 75px;
+}
+.search-bar input{
+	height: 40px;
+	width: 225px;
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+}
+/* end search bar */
+
+/* class header */
+.header{
+	height: 450px;
+}
+/* banner */
+#banner-header{
+	margin-top: 0px;
+	height: 450px;
+	background: gray;
+	background-position: center;
+	text-align: center;
+}
+#banner-header h1{
+	font-size: 55px;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+#banner-header p{
+	font-size: 24px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#showcase{
+	float: left;
+	width: 800px;
+	margin-left: 50px;
+}
+/* end banenr */
+
+/* login section */
+#login-section form{
+	margin-right: 50px;
+	background-color: #131720;
+	height: 300px;
+	width: 400px;
+	padding: 20px;
+}
+#login-section form legend{
+	font-size: 24px;
+	font-weight: bold;
+}
+#login-section{
+	margin-top: 50px;
+	float: right;
+	text-align: center;
+
+}
+#login-section label{
+	font-size: 20px;
+}
+#login-section input{
+	font-size: 18px;
+	width: 300px;
+	height: 35px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+.textbox{
+	margin-top: 10px;
+	width: 380px;
+	height: 75px;
+}
+
+#login-section button{
+	font-size: 16px;
+	height:45px;
+	width: 150px;
+	background-color: #1A2032;
+	color: #ffffff;
+	border-color: #1C93EF;
+}
+/* end login section */
+
+/* newsletter */
+#newsletter{
+	padding-top: 15px;
+	padding-bottom: 50px;
+	background-color: #1B1837;
+	text-align: center;
+	margin-bottom: 20px;
+	border-bottom: 5px solid #2C3347;
+}
+#newsletter h2{
+	text-decoration: underline;
+}
+#newsletter input{
+	font-size: 18px;
+	height: 40px;
+	width: 350px;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+}
+#newsletter button{
+	height:45px;
+	width: 150px;
+	font-size: 18px;
+	background-color: #1A2032;
+	color: #ffffff;
+	border-color: #1C93EF;
+}
+/* end newsletter */
+
+/* services section */
+.ser{
+	padding-top: 5px;
+	text-align: center;
+	height: 725px;
+}
+.ser h2{
+	text-decoration: underline;
+	margin-top: 15px;
+}
+.ser section{
+	width: 30%;
+	height: 800px;
+	float: left;
+	text-align: center;
+	margin: 10px 15px 0px 25px;
+	background-color: #283142;
+	border-bottom: 5px solid #2C3347;
+}
+#services img{
+	width: 360px;
+	height: 375px;
+}
+#services h3{
+	font-size: 24px;
+}
+#services p{
+	font-size: 19px;
+	padding: 0px 15px 0px 15px;
+	margin: 0px 5px 0px 5px;
+}
+#services #read-more{
+	margin-top: 25px;
+	height:40px;
+	width: 150px;
+	font-size: 18px;
+	background-color: #1A2032;
+	color: #ffffff;
+	border-color: #1C93EF;
+}
+/* end services section */
+
+/* about section */
+.about{
+	background: gray;
+	height: 500px;
+	text-align: center;
+	padding: 0pc 20px 0px 80px;
+	color: #ffffff;
+	border-bottom: 5px solid #2C3347;
+}
+.about h2{
+	margin-top: 200px;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+.about #physical-address{
+	float: left;
+}
+#physical-address p{
+	font-size: 22px;
+}
+#physical-address h3{
+	font-size: 26px;
+}
+#contact h3{
+	padding-top: 10px;
+}
+#contact #contact-info{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#google-loc img{
+	height: 375px;
+	width: 650px;
+	float: right;
+	margin-right: 30px;
+}
+/* end about section */
+
+/* footer section */
+footer{
+	padding: 30px;
+	font-size: 18px;
+	background-color: #282836;
+	text-align: center;
+	color: #ffffff;
+}
+/* end footer section */
+
+@media only screen and (max-width: 600px) {
+	
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
